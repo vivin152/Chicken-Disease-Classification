@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = input("enter project_name")
+project_name = input("enter project_name:")
 
 list_of_files = [
     ".githib/workflows/.gitkeep"
@@ -21,7 +21,8 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trails.ipynb"
+    "research/trails.ipynb",
+    "template/index.html"
 ]
 
 for filepath in list_of_files:
